@@ -1,0 +1,125 @@
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoads[?1034hNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ [KNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ whci[K[Kich giet[K[Kt
+/usr/bin/git
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ gity [K[K[K b[K[K[Kt [K[Kti[K[Kit verb optio ns
+git: 'verb' is not a git command. See 'git --help'.
+
+The most similar commands are
+	grep
+	revert
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git config --g lobal user.name "Nicol Parker"
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git config --g lobal user.email "nparker@ucsb.edu
+> 
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git confit[Kg --g lobal user.email "nicolannparker@gmail.com"
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git config --g lobal user.nem[K[Kame "nparker2016"
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git [K[K[K[Kgit config --gllobal user.name "nparker2016"[K[K[K[K[K[K[K[K[K[K[K[KNicol [K Parker:"
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git config --gllobal user.name "Nicol Parker:"[K[K"
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git config --g lobal core.editor "sublimetext --/Applications/Sublime\ Text.a pp/Contents/SharedSupport/bin/subl -n -w"
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git config --l ist
+[?1h=credential.helper=osxkeychain[m
+user.name=Nicol Parker[m
+user.email=nicolannparker@gmail.com[m
+core.editor=sublimetext --/Applications/Sublime\ Text.app/Cont[m ents/SharedSupport/bin/subl -n -w[m
+[K[?1l>]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git init[K[K[K[K[K[K[K[Kgit init
+Initialized empty Git repository in /Users/nicol/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoads/.git/
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ ls
+CalPIP_PesticideLoads.Rproj
+README.md
+TODO
+cache
+config
+data
+diagnostics
+docs
+graphs
+lib
+logs
+munge
+profiling
+reports
+src
+tests
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ ls -a
+.
+..
+.Rhistory
+.Rproj.user
+.git
+CalPIP_PesticideLoads.Rproj
+README.md
+TODO
+cache
+config
+data
+diagnostics
+docs
+graphs
+lib
+logs
+munge
+profiling
+reports
+src
+tests
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mCalPIP_PesticideLoads.Rproj[m
+	[31mREADME.md[m
+	[31mTODO[m
+	[31mcache/[m
+	[31mconfig/[m
+	[31mdata/[m
+	[31mdiagnostics/[m
+	[31mdocs/[m
+	[31mgraphs/[m
+	[31mlib/[m
+	[31mlogs/[m
+	[31mmunge/[m
+	[31mprofiling/[m
+	[31mreports/[m
+	[31msrc/[m
+	[31mtests/[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git add src[K[Krc
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git add src[1Pstatus
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   src/README.md[m
+	[32mnew file:   src/eda.R[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31m.Rhistory[m
+	[31m.Rproj.user/[m
+	[31mCalPIP_PesticideLoads.Rproj[m
+	[31mREADME.md[m
+	[31mTODO[m
+	[31mcache/[m
+	[31mconfig/[m
+	[31mdata/[m
+	[31mdiagnostics/[m
+	[31mdocs/[m
+	[31mgraphs/[m
+	[31mlib/[m
+	[31mlogs/[m
+	[31mmunge/[m
+	[31mprofiling/[m
+	[31mreports/[m
+	[31mtests/[m
+
+]0;~/Box/PhD/BayDelta_Fellowship/Sub_Projects/CalPIP_PesticideLoadsNicols-MacBook-Air:CalPIP_PesticideLoads nicol$ git add file[K[K[K[K[K -A
